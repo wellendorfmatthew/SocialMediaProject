@@ -1,0 +1,130 @@
+h1 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 80px;
+}
+
+.login-box {
+    width: 500px;
+    border: 2px solid rgb(2, 2, 2);
+    border-radius: 8px;
+    background-color: white;
+    box-shadow: 5px 10px 30px rgba(0, 0, 0, 0.4);
+    margin: auto;
+    margin-top: 100px;
+}
+
+.list button {
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    display: block;
+    margin-top: 50px;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 32px;
+    width: 200px;
+    height: 60px;
+    background-color: white;
+    text-align: left;
+}
+
+.profilepicture {
+    background-color: #000000;
+    border: none;
+    border-radius: 100%;
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.profilepicture img {
+    border-radius: 100%;
+}
+
+.list button:hover {
+    background-color: rgb(235, 229, 229);
+    transition: 0.4s;
+}
+
+.dividers {
+    border-left: 1px solid rgb(133, 131, 131);
+    height: 100vh;
+    top: 0;
+    position: fixed;
+    margin-left: 250px;
+}
+
+.listspan {
+    font-size: 20px;
+    display: inline-block;
+    margin-left: 35px;
+}
+
+#post {
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 32px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    width: 250px;
+    height: 60px;
+}
+
+#post:hover {
+    background-color: rgb(26, 25, 25);
+    transition: 0.4s;
+}
+
+.centersection {
+    text-align: center;
+    margin-top: 0;
+    padding-top: 0;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.form-group {
+    text-align: center;
+    font-weight: bold;
+    margin-top: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#user {
+    border: 2px solid black;
+    border-radius: 8px;
+    width: 250px;
+    height: 30px;
+}
+
+#pass {
+    border: 2px solid black;
+    border-radius: 8px;
+    width: 250px;
+    height: 30px;
+}
+
+#login {
+    text-align: center;
+    margin-top: 60px;
+    border: 2px solid black;
+    border-radius: 32px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-color: black;
+    width: 150px;
+    height: 50px;
+}
+
+#signup {
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 80px;
+}
