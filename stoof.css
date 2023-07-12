@@ -78,8 +78,67 @@ h1 {
 
 .centersection {
     text-align: center;
-    margin-top: 0;
     padding-top: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.center {
+    position: absolute;
+    top: 4%;
+    right: 65%;
+}
+
+.profileelements {
+    position: fixed;
+    top: 6%;
+    right: 50%;
+}
+
+#username {
+    font-size: 30px;
+}
+
+
+#editbutton {
+    position: absolute;
+    margin-left: 200px;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 32px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    width: 120px;
+    height: 45px;
+}
+
+#editbutton:hover {
+    background-color: rgb(26, 25, 25);
+    transition: 0.4s;
+}
+
+.horizontalline {
+    position: fixed;
+    color: rgb(133, 131, 131);
+    width: 2000px;
+    margin-left: 250px;
+    top: 25%;
+}
+
+#handle {
+    margin-top: 20px;
+}
+
+#description {
+    margin-top: 20px;
+}
+
+#linktostuff {
+    margin-top: 20px;
+}
+
+.followingstuff {
+    margin-top: 20px;
 }
 
 form {
