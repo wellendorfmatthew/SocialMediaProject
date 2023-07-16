@@ -25,6 +25,7 @@ h1 {
     height: 60px;
     background-color: white;
     text-align: left;
+    cursor: pointer;
 }
 
 .profilepicture {
@@ -86,6 +87,7 @@ h1 {
     font-size: 20px;
     width: 180px;
     height: 70px;
+    cursor: pointer;
 }
 
 #newmessage:hover {
@@ -119,7 +121,7 @@ h1 {
 .media-bar {
     position: absolute;
     top: 10%;
-    right: 35%;
+    right: 35%;  
 }
 
 .media-line {
@@ -141,6 +143,7 @@ h1 {
     transition: 0.4s;
     width: 150px;
     height: 50px;
+    cursor: pointer;
 }
 
 #posts-button:hover {
@@ -161,6 +164,7 @@ h1 {
     transition: 0.4s;
     width: 150px;
     height: 50px;
+    cursor: pointer;
 }
 
 #pictures-button:hover {
@@ -180,6 +184,7 @@ h1 {
     transition: 0.4s;
     width: 150px;
     height: 50px;
+    cursor: pointer;
 }
 
 #videos-button:hover {
@@ -246,6 +251,7 @@ h1 {
     font-size: 20px;
     width: 120px;
     height: 45px;
+    cursor: pointer;
 }
 
 #editbutton:hover {
@@ -316,6 +322,7 @@ form {
     background-color: black;
     width: 150px;
     height: 50px;
+    cursor: pointer;
 }
 
 #signup {
